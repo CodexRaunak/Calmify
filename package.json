@@ -8,6 +8,7 @@
     "frontend-install": "cd frontend && npm install",
     "backend-install": "cd backend && npm install",
     "install-all": "npm run frontend-install && npm run backend-install",
+     "build": "npm install && npm run install-all",
     "frontend": "cd frontend && npm run dev",
     "backend": "cd backend && npm run dev",
     "dev": "concurrently \"npm run backend\" \"npm run frontend\""
