@@ -1,0 +1,21 @@
+{
+  "name": "mentalhealth",
+  "version": "1.0.0",
+  "description": "Calmify is a mental health app designed to help users relax and improve their mental well-being through interactive games, short tasks, and soothing videos. The website is developed using React and aims to provide a positive and engaging experience for users.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend-install": "cd frontend && npm install",
+    "backend-install": "cd backend && npm install",
+    "install-all": "npm run frontend-install && npm run backend-install",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "keywords": [],
+  "author": "Raunak Madan",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
